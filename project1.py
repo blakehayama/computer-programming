@@ -7,8 +7,8 @@ for i in range(5):
     name = input("Player " + str(i + 1) + " Name: ")
     ab = int(input("Player " + str(i + 1) + " At-bats: "))
     hits = int(input("Player " + str(i + 1) + " Hits: "))
-    ave = hits / ab
-    players.append([name, ab, hits, ave])
+    avg = hits / ab
+    players.append([name, ab, hits, avg])
 total_ab = 0
 total_hits = 0
 for player in players:
@@ -16,7 +16,7 @@ for player in players:
     total_hits += player[2]
 overall_average = total_hits / total_ab
 print()
-print("NAME\t\tAB\tHITS\tAVE")
+print("NAME\t\tAB\tHITS\tAVG")
 print("----------------------------------------")
 for player in players:
     print(player[0], "\t\t", player[1], "\t", player[2], "\t", format(player[3], ".3f"))

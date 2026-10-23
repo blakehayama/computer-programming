@@ -17,10 +17,8 @@ for player in players:
 overall_average = total_hits / total_ab
 print()
 print("NAME\t\tAB\tHITS\tAVG")
-print("----------------------------------------")
 for player in players:
     print(player[0], "\t\t", player[1], "\t", player[2], "\t", format(player[3], ".3f"))
-print("----------------------------------------")
 print("TOTAL\t\t", total_ab, "\t", total_hits, "\t", format(overall_average, ".3f"))
 team_average = 0.253
 mlb_average = 0.245

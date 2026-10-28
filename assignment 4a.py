@@ -119,7 +119,7 @@ cities = {
     "Tokyo": {
         "country": "Japan",
         "population": "About 14 million",
-        "fact": "It is the capital of Japan."
+        "fact": "capital of Japan."
     }
 }
 print("Nesting_2")
